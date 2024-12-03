@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Forum Post</title>
+    <link rel="stylesheet" href="CreatePostStyles.css">
+</head>
+<body>
+  <nav>
+   <a href="../HomePage/HomePage.html"><img src="../images/csusmlogo.png" alt="Logo" id="logo"></a>
+    <ul id="navbar">
+      <li><a href="../HomePage/HomePage.html">Home</a></li>
+      <li><a href="../Forum/forums.html">Forum</a></li>
+      <li><a class="active" href="../CreatePost/CreatePost.php">Make a Post</a></li>
+    </ul>
+   <a href="../ProfilePage/profilepage.html"><img src="../images/profile-pic.png" alt="Profile" id="profile"></a>
+  </nav>
+
+    <div class="div1">
+        <form action="CreatePost.php" method="post">
+            <label for="forumName">Forum Name:</label>
+            <input type="text" id="forumName" name="forumName" required>
+
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="body">Body:</label>
+            <textarea id="body" name="body" required></textarea>
+
+            <label for="tags">Tags (comma-separated):</label>
+            <input type="text" id="tags" name="tags" placeholder="e.g., CS 101, CIS 444">
+
+            <button type="submit">Create Post</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0078CC;
+  background-image: linear-gradient(0deg, #0078CC, white);
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  box-shadow: 1px 1px grey;
+}
+
+#logo {
+  height: 30px;
+}
+
+#navbar {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: center;
+}
+
+#navbar li {
+  margin: 0 10px;
+}
+
+#navbar a {
+  color:black;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: #0078CC;
+  text-decoration: none;
+  border-bottom: 3px solid #0078CC;
+}
+
+#navbar a.active {
+  color: #0078CC;
+  text-decoration: none;
+  border-bottom: 3px solid #0078CC;
+}
+
+#profile {
+  height: 40px;
+  border-radius: 50%;
+}
+
+
+.div1 {
+    width: 600px; /* Increased width */
+    background: white;
+    margin: 50px auto; /* Adjusted for better positioning */
+    padding: 30px; /* More padding for better layout */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold; /* Make labels bold */
+}
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    margin-bottom: 20px; /* More space between form fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Larger font size for readability */
+    width: 100%; /* Ensure full width within the div1 */
+}
+
+textarea {
+    height: 150px; /* Larger area for text input */
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #0078CC;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #003a70;
+}

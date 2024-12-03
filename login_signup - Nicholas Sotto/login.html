@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="login_signup_style.css">
+	<script   src = "loginjava.js"> </script>
+	<title>CSUSM Forum Login</title>
+</head>
+
+<body>
+	<header class = "CSUSM_Header">
+	<div class="csusm-logo">
+		<img src="../images/csusmlogo.png" alt="CSUSM logo" class="logo">
+	</div>
+	
+	<div class = "header-title">
+	<h1>// Login</h1>
+		</div>
+	</header>
+	
+		
+
+	<form id = "login" action = "loginValidate.php" class = "login-background" method="get">
+		<h2> Log into CSUSM Fourms </h2>
+		
+		<label> Username <br>
+			<input type = "text" name = "user" size = "25" />
+		</label>
+		
+		
+		<br> <br>
+		<label> Password <br>
+			<input type = "password" name = "pswd" size = "25" />
+		</label>
+
+		<br><br>
+		<label>
+			<input type = "checkbox" name = "check" />
+			Remember Account
+		</label>
+		
+		<br> <br>
+		<input type = "submit" value = "Sign In" 
+			   class = "signbutton" />
+		<br><br>
+		<input type = "button" value = "Forgot Username or Password" 
+			   class = "reset"/>
+		<br><br>
+		Don't have an account? <a href="../login_signup/signup.php">Sign Up</a>
+	</form>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>
+
